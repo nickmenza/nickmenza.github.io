@@ -12,16 +12,17 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    { path: '/', component: Home },
+    { path: '/',name: 'home', component: Home },
     { path: '/about', component: About },
     { path: '/contact', component: Contact }
   ]
 });
 
 
+
 new Vue({
   router,
-  el: '#app',
+  // el: '#app',
   render : h => h(App)
 }).$mount('#app');
 
