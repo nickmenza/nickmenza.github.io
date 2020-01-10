@@ -8,38 +8,54 @@ import About from './components/About.vue';
 import Contact from './components/Contact.vue';
 import App from './components/App.vue';
 
+
+
 const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    { path: '/',name: 'home', component: Home },
-    { path: '/about', component: About },
-    { path: '/contact', component: Contact }
+    { 
+      path: '/',
+      name: 'home',
+      component: About,
+    },
   ]
 });
+
+// console.log(router)
 
 
 
 new Vue({
+  data() {
+    return {
+      component : Home
+    }
+  },
   router,
-  // el: '#app',
-  render : h => h(App)
+  render(h){
+    // return h(this.App_)
+    return h(App, {
+      props: {
+        route_use : { 
+          path: '/',
+          name: 'home',
+          component: this.component,
+        },
+      }
+    })
+  },
+  watch: {
+      '$route' (to, from) {
+        // router.routes[0].component = About
+        console.log(router.fullPath)
+          console.log('change route')
+          // this.component = About
+      } 
+  },
 }).$mount('#app');
 
-// new Vue({
-//   router,
-//   template: `
-//     <div>
-//       <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-//         <div class="collapse navbar-collapse" id="navbarNav">
-//           <ul class="navbar-nav">
-//             <li class="nav-item"><router-link to="/" class="nav-link">Home</router-link></li>
-//             <li class="nav-item"><router-link to="/about" class="nav-link">About</router-link></li>
-//             <li class="nav-item"><router-link to="/contact" class="nav-link">Contact</router-link></li>
-//           </ul>
-//         </div>
-//       </nav>
-//       <router-view class="view"></router-view>
-//     </div>
-//   `
-// }).$mount('#app');
+// router.beforeEach((to, from, next) => {
+//   console.log('TEST',next)
+//   next()
+// });

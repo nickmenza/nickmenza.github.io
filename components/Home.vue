@@ -6,6 +6,12 @@
 
 <script>
   export default {
-
+    data() {
+      return {
+      }
+    },
+    created() {
+      console.log('Home')
+    },
   }
 </script>
