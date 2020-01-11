@@ -1,9 +1,9 @@
 <template>
-  <h1>About us</h1>
+  <h1>portfolio</h1>
 </template>
 
 <script>
   export default {
-
+    name: 'portfolio',
   }
 </script>
