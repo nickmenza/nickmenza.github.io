@@ -10,8 +10,7 @@
     <div class="carousel-item" v-for="(item,index) in list_data" v-bind:key="index" :class="[active == index ? 'active' : '', '']">
         <img :src="item.img" class="d-block w-100">
         <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            {{item.detail}}
         </div>
     </div>
     </div>
@@ -43,6 +42,10 @@ export default {
     methods: {
         change(index){
             this.active = index
+            clearInterval(this.interval_slide)
+            this.interval_slide = setInterval(() => {
+                this.next()
+            }, 5000)
         },
         next(){
             if(this.list_data.length > 0){

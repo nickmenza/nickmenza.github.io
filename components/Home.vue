@@ -29,8 +29,12 @@
           </div>
         </div>
       </div>
+      <hr>
       <div class="mt-4">
-        ประสบการณ์พัฒนาเว็บไซต์ประมาณ 3 ปีแล้วเท่ากับประสบการณ์ทำงาน มีความเชี่ยวชาญ ReactJs, VueJs, Javasrcipt, Node, Laravel(PHP), Css, Sass, Bootstrap, Html, Docker สามารถทำได้ทั้ง Frontend และ Backend เรียนรู้ได้เร็วและปรับตัวได้เก่งกับสถานการณ์ต่างๆ ตัวอย่างเว็บไซต์ที่เคยทำ ได้แก่ 
+        <div class="paragrah">
+        ประสบการณ์พัฒนาเว็บไซต์ประมาณ 3 ปีเท่ากับประสบการณ์ทำงาน มีความเชี่ยวชาญ ReactJs, VueJs, Javasrcipt, Node, Laravel(PHP), Css, Sass, Bootstrap, Html, Docker, Line Notify, Google Login, Google Calendar, Facebook Login
+        สามารถทำได้ทั้ง Frontend และ Backend เรียนรู้ได้เร็วและปรับตัวได้เก่งกับสถานการณ์ต่างๆ ตัวอย่างเว็บไซต์ที่เคยทำ ได้แก่ 
+        </div>
         <ul>
           <li>
             <a href="https://www.kodanmal.com" target="_blank">
@@ -61,6 +65,7 @@
         <div class="mt-2 mb-1">
           * บางเว็บไซด์ที่ไม่ได้เอามาลงเป็นระบบปิดไม่สามารถเข้าไปดูได้ แต่จะยกตัวอย่างโดยการถ่ายรูปมาให้ดูครับ
         </div>
+        <hr>
         <ul class="list-web">
           <li>
             <a v-on:click="changeTab('mahidol')">
@@ -114,13 +119,16 @@
 <style>
 .img-profile{
   width: 200px;
+  border-radius: 100%;
 }
 .profile{
-  max-width: 800px;
+  max-width: 671px;
   margin: auto;
   margin-bottom: 40px;
-  /* display: flex; */
-  /* flex-direction: column */
+  background-color: white;
+  padding: 10px;
+  z-index: 1;
+  border-radius: 6px;
 }
 .my-profile{
   display: flex;
@@ -137,9 +145,15 @@
   padding: 0;
   margin: 0;
   display: flex;
+  margin-bottom: 20px;
 }
 .list-web a{
   padding: 10px;
+  border : 1px solid black;
+  border-bottom: unset;
+}
+.paragrah{
+  text-indent: 1.5em;
 }
 </style>
 
