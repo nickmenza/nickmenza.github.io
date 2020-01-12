@@ -1,17 +1,11 @@
 <template>
        <div>
-        <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-            <ul class="navbar-nav">
-                <li class="nav-item"><router-link to="/" class="nav-link">Home</router-link></li>
-                <li class="nav-item"><router-link to="/#about" class="nav-link">About</router-link></li>
-                <li class="nav-item"><router-link to="/#contact" class="nav-link">Contact</router-link></li>
-            </ul>
-        </nav> -->
         <div class="container layout">
             <h4 class="title mb-4">
                 Welcome My Profile By Nick
             </h4>
-            <div class="link-menu">
+            <div class="d-flex">
+                <div class="link-menu">
                 <ul>
                     <li>
                         <router-link to="/" class="">
@@ -38,9 +32,11 @@
                         </router-link>
                     </li>
                 </ul>
+                </div>
+                <component :is="currentTabComponent" ></component>
             </div>
+            
         </div>
-        <component :is="currentTabComponent" ></component>
 
         </div>
         
@@ -84,8 +80,10 @@ body{
     margin-bottom: 20px;
 }
 .link-menu ul{
+    position: fixed;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     list-style: none;
     margin: 0;
     padding: 0
@@ -93,10 +91,10 @@ body{
 .link-menu ul li{
     padding: 10px;
     border : 1px solid black;
-    border-right : none;
+    border-bottom : none;
 }
 .link-menu ul li:last-child{
-    border-right : 1px solid black;
+    border-bottom : 1px solid black;
 }
 .link-menu ul li a{
     display: flex;
