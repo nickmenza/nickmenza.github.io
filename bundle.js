@@ -13122,6 +13122,60 @@ process.umask = function() { return 0; };
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: 'resume'
@@ -17129,7 +17183,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", [
                   _c("div", [
-                    _vm._v("\n                Height : 163kg\n              ")
+                    _vm._v("\n                Height : 163cm\n              ")
                   ]),
                   _vm._v(" "),
                   _c("div", [
@@ -17155,7 +17209,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", {}, [
                 _vm._v(
-                  "\n          bachelor's degree in Computer Science (GPA 2.75)\n          (Khonkaen university)\n          "
+                  "\n          bachelor's degree in Computer Science\n          (Khonkaen university)\n          "
                 )
               ])
             ])
@@ -17167,9 +17221,36 @@ var staticRenderFns = [
                 _c("i", { staticClass: "fas fa-briefcase" }),
                 _vm._v("\n            Work Experince\n          ")
               ]),
-              _vm._v(
-                "\n            Web Developer, Bangkoksolution February 2017 - Present\n          "
-              ),
+              _vm._v(" "),
+              _c("div", [
+                _vm._v(
+                  "\n              Web Developer, Bangkoksolution February 2017 - Present "
+                ),
+                _c("br"),
+                _vm._v(
+                  "\n              \n              ตอนแรกก็ได้ทำเกี่ยวกับ Frontend ดีไซด์หน้าเว็บให้สามารถใช้งานได้ทุก Device \n              และก็ได้ทำหลังบ้าน ได้ออกแบบ database ได้ทำ CRUD หลังบ้าน \n              และปรับแต่งปรับสทธิภาพเว็บให้รวดเร็วและใช้งานได้อยู้ตลอดเวลา\n              ระบบที่เคยทำ ได้แก่ ระบบนัดหมาย, ระบบสต๊อกสินค้า, ระบบ e-commerce, ระบบCRM, \n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _vm._v(
+                  "\n              Web Developer, Airportels, July 2016 - January 2017 "
+                ),
+                _c("br"),
+                _vm._v(
+                  "\n              ได้เข้าไปพัฒนา ระบบ สแกนพาร์ปอต์ให้กับบริษัทโดยใช้ภาษา... และได้ทำระบบหลังบ้านมานิดหน่อย เกี่ยวกับ การทำตั้งเวลาส่งเมล์ และ CRUD \n            "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [
+              _c("h3", [
+                _c("i", { staticClass: "fas fa-briefcase" }),
+                _vm._v("\n            Skill\n          ")
+              ]),
+              _vm._v(" "),
               _c("ul", [
                 _c("li", [
                   _vm._v(
@@ -17186,7 +17267,9 @@ var staticRenderFns = [
                 _c("li", [_vm._v("\n              Git Command\n            ")]),
                 _vm._v(" "),
                 _c("li", [
-                  _vm._v("\n              Css (Sass) (Bootstrap)\n            ")
+                  _vm._v(
+                    "\n              Css (Sass) (Bootstrap) (Responsive)\n            "
+                  )
                 ]),
                 _vm._v(" "),
                 _c("li", [
@@ -17195,19 +17278,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("li", [
                   _vm._v(
-                    "\n              experience with Line Notify\n            "
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "\n              experience with Google Login and Facebook Login\n            "
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "\n              experience with Google Calendar\n            "
+                    "\n              experience with Google Login, Facebook Login, Google Calendar, Line Notify\n            "
                   )
                 ]),
                 _vm._v(" "),
@@ -17233,36 +17304,86 @@ var staticRenderFns = [
                   _vm._v("\n              Knowledge of Node \n            ")
                 ]),
                 _vm._v(" "),
+                _c("li", [_vm._v("\n              Omise\n            ")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              Crontab\n            ")]),
+                _vm._v(" "),
                 _c("li", [
-                  _vm._v("\n              Warehouse management\n            ")
+                  _vm._v("\n              Command Linux\n            ")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [
+              _c("h3", [
+                _c("i", { staticClass: "fas fa-briefcase" }),
+                _vm._v("\n            Computer Software\n          ")
+              ]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("\n              VS code\n            ")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              Postman\n            ")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("\n              Github Desktop\n            ")
                 ]),
                 _vm._v(" "),
-                _c("li", [_vm._v("\n              CRM\n            ")])
+                _c("li", [_vm._v("\n              SourceTree\n            ")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              FileZilla\n            ")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              Sequel Pro\n            ")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [
+              _c("h3", [
+                _c("i", { staticClass: "fas fa-briefcase" }),
+                _vm._v("\n            Reference\n          ")
               ]),
-              _vm._v(
-                "\n            Web Developer, Airportels, July 2016 - January 2017\n            "
-              ),
+              _vm._v(" "),
               _c("ul", [
                 _c("li", [
                   _vm._v(
-                    "\n                experience with basic backend (CRUD) (Laravel Framework) (PHP)\n              "
+                    "\n              https://zengroup.co.th/\n            "
                   )
                 ]),
                 _vm._v(" "),
-                _c("li", [_vm._v("\n                Omise\n              ")]),
+                _c("li", [
+                  _vm._v(
+                    "\n              https://www.kodanmal.com/\n            "
+                  )
+                ]),
                 _vm._v(" "),
-                _c("li", [_vm._v("\n                Crontab\n              ")])
+                _c("li", [
+                  _vm._v(
+                    "\n              https://www.rdkaset.com/\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              https://sensebook.adiwit.co.th/\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              http://www.northernfoodvalley2.com/\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              Other....\n            ")])
               ])
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", [_vm._v("\n    กิจกรรม\n  ")]),
-      _vm._v(" "),
-      _c("div", [_vm._v("\n    ผลงาน\n  ")]),
-      _vm._v(" "),
-      _c("div", [_vm._v("\n    ประสบการณ์\n  ")])
+      ])
     ])
   }
 ]
