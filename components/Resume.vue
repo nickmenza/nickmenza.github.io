@@ -148,6 +148,9 @@
             <li>
               Sequel Pro
             </li>
+            <li>
+              Other....
+            </li>
           </ul>
         </td>
       </tr>

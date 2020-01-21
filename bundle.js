@@ -13176,6 +13176,9 @@ process.umask = function() { return 0; };
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: 'resume'
@@ -17335,7 +17338,9 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("li", [_vm._v("\n              FileZilla\n            ")]),
                 _vm._v(" "),
-                _c("li", [_vm._v("\n              Sequel Pro\n            ")])
+                _c("li", [_vm._v("\n              Sequel Pro\n            ")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              Other....\n            ")])
               ])
             ])
           ]),
