@@ -12993,6 +12993,135 @@ process.umask = function() { return 0; };
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: 'resume'
@@ -16957,7 +17086,184 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "resume" }, [_c("h1", [_vm._v("Resume")])])
+    return _c("div", { staticClass: "resume" }, [
+      _c("table", [
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [
+              _c("h3", [_vm._v("Resume")]),
+              _vm._v(" "),
+              _c("div", { staticStyle: { "text-indent": "1.5em" } }, [
+                _vm._v(
+                  "\n            3 years as web developer Frontend and Backend. Excel in ReactJs, VueJs, Jquery, Laravel(PHP) Css, Sass, Bootstrap, Line Notify, Google Login, Google Calendar, Facebook Login. Actully Warehouse management And CRM.\n          "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [
+              _c("h3", [
+                _c("i", { staticClass: "fas fa-walking" }),
+                _vm._v(" Personal Details")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "d-flex justify-content-between" }, [
+                _c("div", [
+                  _c("div", [
+                    _vm._v(
+                      "\n                Date of Birth : January 22, 1994\n              "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v(
+                      "\n                Nationality : Thai\n              "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v("\n                Weight : 63kg\n              ")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _c("div", [
+                    _vm._v("\n                Height : 163kg\n              ")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v("\n                Age : 25\n              ")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v(
+                      "\n                Marital Status: Single\n              "
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [
+              _c("h3", [
+                _c("i", { staticClass: "fas fa-graduation-cap" }),
+                _vm._v("\n            Education\n          ")
+              ]),
+              _vm._v(" "),
+              _c("div", {}, [
+                _vm._v(
+                  "\n          bachelor's degree in Computer Science (GPA 2.75)\n          (Khonkaen university)\n          "
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [
+              _c("h3", [
+                _c("i", { staticClass: "fas fa-briefcase" }),
+                _vm._v("\n            Work Experince\n          ")
+              ]),
+              _vm._v(
+                "\n            Web Developer, Bangkoksolution February 2017 - Present\n          "
+              ),
+              _c("ul", [
+                _c("li", [
+                  _vm._v(
+                    "\n              experience with Javasrcipt (ReactJs) (VueJs) (Jquery), JSON, DOM (Document Object Model)\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              experience with PHP and Laravel Framework (PHP)\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              Git Command\n            ")]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("\n              Css (Sass) (Bootstrap)\n            ")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("\n              experience with Docker\n            ")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              experience with Line Notify\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              experience with Google Login and Facebook Login\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              experience with Google Calendar\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              Implement and manage analytics platforms (Google Analytics, Google Optimize)\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              Improve Performance Website\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v(
+                    "\n              Knowledge of database management such as SQL And MySQL\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("\n              Knowledge of Node \n            ")
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _vm._v("\n              Warehouse management\n            ")
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n              CRM\n            ")])
+              ]),
+              _vm._v(
+                "\n            Web Developer, Airportels, July 2016 - January 2017\n            "
+              ),
+              _c("ul", [
+                _c("li", [
+                  _vm._v(
+                    "\n                experience with basic backend (CRUD) (Laravel Framework) (PHP)\n              "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n                Omise\n              ")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("\n                Crontab\n              ")])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [_vm._v("\n    กิจกรรม\n  ")]),
+      _vm._v(" "),
+      _c("div", [_vm._v("\n    ผลงาน\n  ")]),
+      _vm._v(" "),
+      _c("div", [_vm._v("\n    ประสบการณ์\n  ")])
+    ])
   }
 ]
 render._withStripped = true
