@@ -27,7 +27,7 @@
             </div>
             <div>
               <div>
-                Height : 163kg
+                Height : 163cm
               </div>
               <div>
                 Age : 25
@@ -47,18 +47,39 @@
             Education
           </h3>
           <div class="">
-          bachelor's degree in Computer Science (GPA 2.75)
+          bachelor's degree in Computer Science
           (Khonkaen university)
           </div>
         </td>
       </tr>
+      
       <tr>
         <td>
           <h3>
             <i class="fas fa-briefcase"></i>
             Work Experince
           </h3>
-            Web Developer, Bangkoksolution February 2017 - Present
+            <div>
+              Web Developer, Bangkoksolution February 2017 - Present <br>
+              
+              ตอนแรกก็ได้ทำเกี่ยวกับ Frontend ดีไซด์หน้าเว็บให้สามารถใช้งานได้ทุก Device 
+              และก็ได้ทำหลังบ้าน ได้ออกแบบ database ได้ทำ CRUD หลังบ้าน 
+              และปรับแต่งปรับสทธิภาพเว็บให้รวดเร็วและใช้งานได้อยู้ตลอดเวลา
+              ระบบที่เคยทำ ได้แก่ ระบบนัดหมาย, ระบบสต๊อกสินค้า, ระบบ e-commerce, ระบบCRM, 
+            </div>
+            <div>
+              Web Developer, Airportels, July 2016 - January 2017 <br>
+              ได้เข้าไปพัฒนา ระบบ สแกนพาร์ปอต์ให้กับบริษัทโดยใช้ภาษา... และได้ทำระบบหลังบ้านมานิดหน่อย เกี่ยวกับ การทำตั้งเวลาส่งเมล์ และ CRUD 
+            </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>
+            <i class="fas fa-briefcase"></i>
+            Skill
+          </h3>
           <ul>
             <li>
               experience with Javasrcipt (ReactJs) (VueJs) (Jquery), JSON, DOM (Document Object Model)
@@ -70,19 +91,13 @@
               Git Command
             </li>
             <li>
-              Css (Sass) (Bootstrap)
+              Css (Sass) (Bootstrap) (Responsive)
             </li>
             <li>
               experience with Docker
             </li>
             <li>
-              experience with Line Notify
-            </li>
-            <li>
-              experience with Google Login and Facebook Login
-            </li>
-            <li>
-              experience with Google Calendar
+              experience with Google Login, Facebook Login, Google Calendar, Line Notify
             </li>
             <li>
               Implement and manage analytics platforms (Google Analytics, Google Optimize)
@@ -97,39 +112,78 @@
               Knowledge of Node 
             </li>
             <li>
-              Warehouse management
+              Omise
             </li>
             <li>
-              CRM
+              Crontab
+            </li>
+            <li>
+              Command Linux
             </li>
           </ul>
-            Web Developer, Airportels, July 2016 - January 2017
-            <ul>
-              <li>
-                experience with basic backend (CRUD) (Laravel Framework) (PHP)
-              </li>
-              <li>
-                Omise
-              </li>
-              <li>
-                Crontab
-              </li>
-            </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>
+            <i class="fas fa-briefcase"></i>
+            Computer Software
+          </h3>
+          <ul>
+            <li>
+              VS code
+            </li>
+            <li>
+              Postman
+            </li>
+            <li>
+              Github Desktop
+            </li>
+            <li>
+              SourceTree
+            </li>
+            <li>
+              FileZilla
+            </li>
+            <li>
+              Sequel Pro
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>
+            <i class="fas fa-briefcase"></i>
+            Reference
+          </h3>
+          <ul>
+            <li>
+              https://zengroup.co.th/
+            </li>
+            <li>
+              https://www.kodanmal.com/
+            </li>
+            <li>
+              https://www.rdkaset.com/
+            </li>
+            <li>
+              https://sensebook.adiwit.co.th/
+            </li>
+            <li>
+              http://www.northernfoodvalley2.com/
+            </li>
+            <li>
+              Other....
+            </li>
+          </ul>
+
         </td>
       </tr>
     </tbody>
   </table>
   
-
-   <div>
-    กิจกรรม
-  </div>
-   <div>
-    ผลงาน
-  </div>
-   <div>
-    ประสบการณ์
-  </div>
+   
 </div>
 </template>
 
